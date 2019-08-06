@@ -1,4 +1,4 @@
-db.Dataset.find({_id" : "20.500.12269/BRIGHTNESS/MG0020"}).forEach(
+db.Dataset.find({"_id" : "20.500.12269/BRIGHTNESS/MG0020"}).forEach(
   function (e) {
     // update document, using its own properties
 	res = e.scientificMetadata
