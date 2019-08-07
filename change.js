@@ -7,5 +7,5 @@ db.Dataset.find({ creationLocation: "V20" }).forEach(function(e) {
   // remove old properties
 
   // save the updated document
-  db.Dataset.save(e);
+   db.Dataset.save(e);
 });
