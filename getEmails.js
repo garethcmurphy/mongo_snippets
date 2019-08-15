@@ -1,4 +1,3 @@
-db.User.find().forEach(function(e) {
-  // update document, using its own properties
+db.User.find().sort({ email: 1 }).forEach(function(e) {
   print(e.email);
 });
