@@ -20,6 +20,7 @@ db.PublishedData.insertOne({
   scicatUser: "string",
   scientificMetadata: {
     sample_pressure: { type: "measurement", unit: "kg/m*s2", value: 10 },
+    wavelength: { type: "measurement", unit: "m", value: 2e-14 },
     sample_temperature: { type: "measurement", unit: "K", value: 300 }
   }
 });
