@@ -1,5 +1,5 @@
 db.PublishedData.insertOne({
-  pid: "10.17199/ESS1",
+  pid: "10.17199/ESS2",
   affiliation: "string",
   creator: ["string"],
   publisher: "string",
@@ -19,7 +19,7 @@ db.PublishedData.insertOne({
   status: "string",
   scicatUser: "string",
   scientificMetadata: {
-    pressure: { type: "measurement", unit: "kg/m*s2", value: 10 },
-    temperature: { type: "measurement", unit: "K", value: 300 }
+    sample_pressure: { type: "measurement", unit: "kg/m*s2", value: 10 },
+    sample_temperature: { type: "measurement", unit: "K", value: 300 }
   }
 });
